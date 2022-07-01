@@ -1,3 +1,6 @@
 steps:
+  - id: "npm install"
+    name: "gcr.io/cloud-builders/npm"
+    args: ["install"]
   - name: gcr.io/ejmadkins-dev-portfolio/firebase
     args: ["deploy", "--project=ejmadkins-dev-portfolio", "--only=functions"]
