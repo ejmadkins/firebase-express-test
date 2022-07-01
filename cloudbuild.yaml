@@ -1,3 +1,3 @@
 steps:
   - name: gcr.io/ejmadkins-dev-portfolio/firebase
-    args: ["deploy", "--project=ejmadkins-dev-portfolio"]
+    args: ["deploy", "--project=ejmadkins-dev-portfolio", "--only=functions"]
