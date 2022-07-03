@@ -1,2 +1,16 @@
-node_modules
-.DS_Store
+**/.DS_Store
+
+# javascript
+**/.env
+
+# node
+**/node_modules/*
+**/npm-debug.log
+
+# firebase
+**/ui-debug.log
+**/database-debug.log
+**/firebase-debug.log
+**/firestore-debug.log
+**/package-lock.json
+**/.runtimeconfig.json
